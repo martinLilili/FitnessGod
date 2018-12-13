@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED1EB64C21BA16F900E93D43 /* CurrentplanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1EB64B21BA16F900E93D43 /* CurrentplanTableViewCell.swift */; };
+		ED1EB64E21BA66E600E93D43 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1EB64D21BA66E600E93D43 /* TimerView.swift */; };
+		ED1EB65121BA733C00E93D43 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1EB65021BA733C00E93D43 /* UserNotifications.framework */; };
+		ED1F421D21B7C60D0009ABED /* MainWorkoutDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1F421C21B7C60D0009ABED /* MainWorkoutDetailViewController.swift */; };
+		ED1F422021B7CCFF0009ABED /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1F421F21B7CCFF0009ABED /* Utils.swift */; };
+		ED209A0321B8EFB400A69076 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2099F921B8EFB400A69076 /* FMDatabaseQueue.m */; };
+		ED209A0421B8EFB400A69076 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2099FC21B8EFB400A69076 /* FMDatabaseAdditions.m */; };
+		ED209A0521B8EFB400A69076 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2099FD21B8EFB400A69076 /* FMDatabase.m */; };
+		ED209A0621B8EFB400A69076 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = ED209A0121B8EFB400A69076 /* FMDatabasePool.m */; };
+		ED209A0721B8EFB400A69076 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = ED209A0221B8EFB400A69076 /* FMResultSet.m */; };
+		ED209A0D21B8F0F100A69076 /* FMDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED209A0C21B8F0F100A69076 /* FMDBManager.swift */; };
 		ED30670F21A535B2001F8F42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED30670E21A535B2001F8F42 /* AppDelegate.swift */; };
 		ED30671121A535B2001F8F42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED30671021A535B2001F8F42 /* ViewController.swift */; };
 		ED30671421A535B2001F8F42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED30671221A535B2001F8F42 /* Main.storyboard */; };
@@ -14,6 +25,11 @@
 		ED30671921A535B3001F8F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED30671721A535B3001F8F42 /* LaunchScreen.storyboard */; };
 		ED30672421A535B4001F8F42 /* FitnessGodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED30672321A535B4001F8F42 /* FitnessGodTests.swift */; };
 		ED30672F21A535B4001F8F42 /* FitnessGodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED30672E21A535B4001F8F42 /* FitnessGodUITests.swift */; };
+		ED30673D21A538A1001F8F42 /* CurrentPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED30673C21A538A1001F8F42 /* CurrentPlanViewController.swift */; };
+		ED30674121A53F2E001F8F42 /* TrainingTemplateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED30674021A53F2E001F8F42 /* TrainingTemplateTableViewController.swift */; };
+		EDA0753321B502250031435C /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0753221B502250031435C /* Workout.swift */; };
+		EDA0753521B503EB0031435C /* Detail5X5TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0753421B503EB0031435C /* Detail5X5TableViewController.swift */; };
+		EDA0753721B50E870031435C /* MainWorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0753621B50E870031435C /* MainWorkoutTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED1EB64B21BA16F900E93D43 /* CurrentplanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentplanTableViewCell.swift; sourceTree = "<group>"; };
+		ED1EB64D21BA66E600E93D43 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		ED1EB65021BA733C00E93D43 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		ED1F421C21B7C60D0009ABED /* MainWorkoutDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWorkoutDetailViewController.swift; sourceTree = "<group>"; };
+		ED1F421F21B7CCFF0009ABED /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		ED2099F821B8EFB400A69076 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		ED2099F921B8EFB400A69076 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		ED2099FA21B8EFB400A69076 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		ED2099FB21B8EFB400A69076 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		ED2099FC21B8EFB400A69076 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		ED2099FD21B8EFB400A69076 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		ED2099FE21B8EFB400A69076 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		ED2099FF21B8EFB400A69076 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		ED209A0021B8EFB400A69076 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		ED209A0121B8EFB400A69076 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		ED209A0221B8EFB400A69076 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		ED209A0B21B8F08000A69076 /* FitnessGod-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FitnessGod-Bridging-Header.h"; sourceTree = "<group>"; };
+		ED209A0C21B8F0F100A69076 /* FMDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMDBManager.swift; sourceTree = "<group>"; };
 		ED30670B21A535B2001F8F42 /* FitnessGod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessGod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED30670E21A535B2001F8F42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED30671021A535B2001F8F42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +81,11 @@
 		ED30672A21A535B4001F8F42 /* FitnessGodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessGodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED30672E21A535B4001F8F42 /* FitnessGodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessGodUITests.swift; sourceTree = "<group>"; };
 		ED30673021A535B4001F8F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED30673C21A538A1001F8F42 /* CurrentPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPlanViewController.swift; sourceTree = "<group>"; };
+		ED30674021A53F2E001F8F42 /* TrainingTemplateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingTemplateTableViewController.swift; sourceTree = "<group>"; };
+		EDA0753221B502250031435C /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		EDA0753421B503EB0031435C /* Detail5X5TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail5X5TableViewController.swift; sourceTree = "<group>"; };
+		EDA0753621B50E870031435C /* MainWorkoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWorkoutTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1EB65121BA733C00E93D43 /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +114,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED1EB64F21BA733C00E93D43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED1EB65021BA733C00E93D43 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED1F421921B7C3E20009ABED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDA0753621B50E870031435C /* MainWorkoutTableViewCell.swift */,
+				ED1EB64B21BA16F900E93D43 /* CurrentplanTableViewCell.swift */,
+				ED1EB64D21BA66E600E93D43 /* TimerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED1F421A21B7C3EC0009ABED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDA0753221B502250031435C /* Workout.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED1F421B21B7C40F0009ABED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED30673C21A538A1001F8F42 /* CurrentPlanViewController.swift */,
+				ED30674021A53F2E001F8F42 /* TrainingTemplateTableViewController.swift */,
+				EDA0753421B503EB0031435C /* Detail5X5TableViewController.swift */,
+				ED1F421C21B7C60D0009ABED /* MainWorkoutDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED1F421E21B7CCAB0009ABED /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				ED2099F721B8EFB400A69076 /* FMDB */,
+				ED1F421F21B7CCFF0009ABED /* Utils.swift */,
+				ED209A0C21B8F0F100A69076 /* FMDBManager.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		ED2099F721B8EFB400A69076 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				ED2099F821B8EFB400A69076 /* FMDatabase.h */,
+				ED2099F921B8EFB400A69076 /* FMDatabaseQueue.m */,
+				ED2099FA21B8EFB400A69076 /* FMResultSet.h */,
+				ED2099FB21B8EFB400A69076 /* FMDatabasePool.h */,
+				ED2099FC21B8EFB400A69076 /* FMDatabaseAdditions.m */,
+				ED2099FD21B8EFB400A69076 /* FMDatabase.m */,
+				ED2099FE21B8EFB400A69076 /* FMDatabaseQueue.h */,
+				ED2099FF21B8EFB400A69076 /* FMDB.h */,
+				ED209A0021B8EFB400A69076 /* FMDatabaseAdditions.h */,
+				ED209A0121B8EFB400A69076 /* FMDatabasePool.m */,
+				ED209A0221B8EFB400A69076 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
 		ED30670221A535B2001F8F42 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +186,7 @@
 				ED30672221A535B4001F8F42 /* FitnessGodTests */,
 				ED30672D21A535B4001F8F42 /* FitnessGodUITests */,
 				ED30670C21A535B2001F8F42 /* Products */,
+				ED1EB64F21BA733C00E93D43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +203,17 @@
 		ED30670D21A535B2001F8F42 /* FitnessGod */ = {
 			isa = PBXGroup;
 			children = (
+				ED1F421E21B7CCAB0009ABED /* Tools */,
+				ED1F421B21B7C40F0009ABED /* Controller */,
+				ED1F421A21B7C3EC0009ABED /* Model */,
+				ED1F421921B7C3E20009ABED /* View */,
 				ED30670E21A535B2001F8F42 /* AppDelegate.swift */,
 				ED30671021A535B2001F8F42 /* ViewController.swift */,
 				ED30671221A535B2001F8F42 /* Main.storyboard */,
 				ED30671521A535B3001F8F42 /* Assets.xcassets */,
 				ED30671721A535B3001F8F42 /* LaunchScreen.storyboard */,
 				ED30671A21A535B3001F8F42 /* Info.plist */,
+				ED209A0B21B8F08000A69076 /* FitnessGod-Bridging-Header.h */,
 			);
 			path = FitnessGod;
 			sourceTree = "<group>";
@@ -257,7 +368,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED30671121A535B2001F8F42 /* ViewController.swift in Sources */,
+				ED209A0D21B8F0F100A69076 /* FMDBManager.swift in Sources */,
+				EDA0753521B503EB0031435C /* Detail5X5TableViewController.swift in Sources */,
+				ED209A0721B8EFB400A69076 /* FMResultSet.m in Sources */,
+				ED209A0621B8EFB400A69076 /* FMDatabasePool.m in Sources */,
+				ED1F422021B7CCFF0009ABED /* Utils.swift in Sources */,
+				ED209A0521B8EFB400A69076 /* FMDatabase.m in Sources */,
+				ED1EB64E21BA66E600E93D43 /* TimerView.swift in Sources */,
+				ED1F421D21B7C60D0009ABED /* MainWorkoutDetailViewController.swift in Sources */,
+				EDA0753721B50E870031435C /* MainWorkoutTableViewCell.swift in Sources */,
+				ED209A0321B8EFB400A69076 /* FMDatabaseQueue.m in Sources */,
+				ED1EB64C21BA16F900E93D43 /* CurrentplanTableViewCell.swift in Sources */,
+				ED30673D21A538A1001F8F42 /* CurrentPlanViewController.swift in Sources */,
+				ED209A0421B8EFB400A69076 /* FMDatabaseAdditions.m in Sources */,
 				ED30670F21A535B2001F8F42 /* AppDelegate.swift in Sources */,
+				EDA0753321B502250031435C /* Workout.swift in Sources */,
+				ED30674121A53F2E001F8F42 /* TrainingTemplateTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,14 +561,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37DXBWQK86;
 				INFOPLIST_FILE = FitnessGod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.liyue.FitnessGod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FitnessGod/FitnessGod-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,14 +581,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37DXBWQK86;
 				INFOPLIST_FILE = FitnessGod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.liyue.FitnessGod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FitnessGod/FitnessGod-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
